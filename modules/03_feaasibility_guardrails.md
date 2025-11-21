@@ -1,5 +1,9 @@
-### **Module 3 — Feasibility & Guardrails**
+                                                                                             Change Log (2025-11-20):
+                                    – Added short-walk preference rule reducing maximum travel distance to 15 minutes.
 
+
+### **Module 3 — Feasibility & Guardrails**                                                
+                                             
 Apply these **if/else** checks to make sure plans are realistic and adapt to edge cases:
 
 1. **Closed Venue**
@@ -13,7 +17,8 @@ Apply these **if/else** checks to make sure plans are realistic and adapt to edg
 3. **Too Far or Long Travel**
    
    - If transfer between activities > 25 min or > 5 km → pick a closer alternative or add a short transit hop.
-
+   - If the user requests “short walks only,” reduce the maximum allowed travel distance between activities to < 15 minutes.      Otherwise, default to the normal 25-minute distance rule.
+     
 4. **Weather Swap**
    
    - If rain or cold season likely → make sure at least one indoor activity replaces outdoor ones.
