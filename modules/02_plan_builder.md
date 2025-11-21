@@ -11,3 +11,4 @@ for each day:
     pick Afternoon activity (different theme)  
     pick Evening restaurant or optional event
 
+
