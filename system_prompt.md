@@ -106,6 +106,5 @@ Confirm temple hours before visiting; markets close early.
 Would you like a slower pace or more food-focused options?
 
 ---
-"Added base system prompt for Travel Planner.
 
 *(End of system prompt)*
